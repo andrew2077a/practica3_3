@@ -66,13 +66,3 @@ bool veri( string oring,string descomprin){
     return true;
 
 }
-int main(){
-    char a[50];
-    cout<<"ingresa la frasse"<<endl;
-    cin>>a;
-    cout<<rleCompress(a)<<endl;
-    cout<<rledescompres(rleCompress(a))<<endl;
-    if (veri( a,rledescompres(rleCompress(a)))){
-        cout<<"IGUALES";
-    }
-}
